@@ -34,7 +34,7 @@ function timeStart(){
    
     if(second == empty) 
     {
-      alert("Game over")
+      alert("Game over");
       clearInterval(timer);
       timer = null;
       clearScreen();
